@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.autentia.spring.cloud.netflix.ServiceExample;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest (classes ={ApplicationPrivateRestService.class})
+@SpringBootTest (classes ={ApplicationRestService.class})
 @TestPropertySource(locations = "classpath:application-test.properties")
 
 public class ServiceExampleTest {
